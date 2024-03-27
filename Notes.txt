@@ -1,0 +1,51 @@
+Two Jargons we need to know:
+1. tags
+2. attributes
+
+Popular HTML tags:
+<HTML> - structure tag to write Html code inside it.
+<head> - structure tag to write some meta data inside of it.
+<title> - Title of the website.
+<body> - structure tag to define all the rendered  content in a webpage.
+<div> / <span> - container tags (div - takes all the space it can on the page ; span - takes only the needed amount of space)
+<h1> ... <h6> - heading tags of different text sizes
+<p> - paragraph tag to write a paragraph
+<img> - image tag to add an image to webpage
+<a> - tag to link a text with an link to another page. (Target - opens as instructed) (_blank :- opens in new tab)
+input - tag to take an input on a page in any form
+<button> - tag to make a button to perform any action.
+<b> / <i> - makes font bold and italic
+<center> - tag to center the elements inside it on a page
+
+A tag gives a structure to the webpage rendered.
+
+Attributes: Anything that is used to define or is associated to a tag is defined inside a tag to change the way they act.
+<img src = "a.png">
+<a href = "https://google.com">
+<button onclick = "doThis">
+<input id = "Username">
+
+
+*CSS*:
+Cascading Style Sheets is used to style a webpage made out of html.
+Style:
+color: specifies the color of an element
+Background: sets the Background of an element
+Background-color: specially used to set a Background color of an element
+Border-radius: rounds the border of an element (divs \ spans etc.)
+Border: adds a specified border to an  element
+Font-family: changes the Font type for the fonts inside the tag selected.
+Padding / margin: adds some space  around the element.
+Padding: Space inside a div or container.
+Margin: space outside the container.
+Box-shadow: horizontal vertical diffusion color
+Font-size: sizes font desirably.
+float  right; - floats element to right most side.
+display:flex; - divs right next to each other.
+justify-content:-
+1. flex-start.
+2. flex-end.
+3. center
+4. space-between
+5. space-around
+7. space-evenly
